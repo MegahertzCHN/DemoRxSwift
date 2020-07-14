@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,6 +48,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        typealias JSON = [String: Any]
+        AF.request("https://httpbin.org/get")
+            .responseJSON { (response) in
+//            debugPrint(response)
+            switch response.result {
+                case let .success(value):
+                    print(value)
+                case let .failure(error):
+                    print(error)
+            }
+//            switch response.result {
+//            case .success(let value): break
+//            //success, do anything
+//            case .failure(let error): break
+//            //failure
+//            }
+        }
     }
 
 

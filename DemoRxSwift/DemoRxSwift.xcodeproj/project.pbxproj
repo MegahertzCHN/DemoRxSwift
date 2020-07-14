@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		29FD578324A1D37E00921CB1 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29FD578124A1D37E00921CB1 /* OneViewController.xib */; };
 		29FD578624A1D38C00921CB1 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD578424A1D38C00921CB1 /* TwoViewController.swift */; };
 		29FD578724A1D38C00921CB1 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29FD578524A1D38C00921CB1 /* TwoViewController.xib */; };
+		29FD578924A2107700921CB1 /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD578824A2107700921CB1 /* MyService.swift */; };
 		33B91B729337A375E72A8A00 /* Pods_DemoRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D1FAFD822A6F4F3B058C28 /* Pods_DemoRxSwift.framework */; };
 		5DB56BF17052DC5D1A2A8792 /* Pods_DemoRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3937137D62996C7BABD31C8 /* Pods_DemoRxSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		29FD578124A1D37E00921CB1 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 		29FD578424A1D38C00921CB1 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		29FD578524A1D38C00921CB1 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		29FD578824A2107700921CB1 /* MyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
 		6FF00920D4257043F15ED8EF /* Pods-DemoRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoRxSwiftTests/Pods-DemoRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F8200321EF51F1E5CA719AF /* Pods-DemoRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-DemoRxSwift/Pods-DemoRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		A3937137D62996C7BABD31C8 /* Pods_DemoRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +106,6 @@
 				6FF00920D4257043F15ED8EF /* Pods-DemoRxSwiftTests.debug.xcconfig */,
 				B9572A3BFB46CB75DDE66F3E /* Pods-DemoRxSwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +146,7 @@
 				29FD578124A1D37E00921CB1 /* OneViewController.xib */,
 				29FD578424A1D38C00921CB1 /* TwoViewController.swift */,
 				29FD578524A1D38C00921CB1 /* TwoViewController.xib */,
+				29FD578824A2107700921CB1 /* MyService.swift */,
 			);
 			path = DemoRxSwift;
 			sourceTree = "<group>";
@@ -396,6 +398,7 @@
 			files = (
 				29FD575824A1D11C00921CB1 /* DemoRxSwift.xcdatamodeld in Sources */,
 				29FD578224A1D37E00921CB1 /* OneViewController.swift in Sources */,
+				29FD578924A2107700921CB1 /* MyService.swift in Sources */,
 				29FD575224A1D11C00921CB1 /* ViewController.swift in Sources */,
 				29FD574E24A1D11C00921CB1 /* AppDelegate.swift in Sources */,
 				29FD575024A1D11C00921CB1 /* SceneDelegate.swift in Sources */,
